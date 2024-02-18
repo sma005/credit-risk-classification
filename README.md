@@ -19,12 +19,18 @@ there is more than a 10% chance to miss the fact that it is a high risk loan. Th
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Training model:
+```
  [[55980   297]
  [  198  1677]]
+```
+
 * Testing model:
+```
 [[18679    80]
  [   67   558]]
+```
 * Classification report:
+```
    precision    recall  f1-score   support
 
            0       1.00      1.00      1.00     18759
@@ -33,6 +39,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     accuracy                           0.99     19384
    macro avg       0.94      0.94      0.94     19384
 weighted avg       0.99      0.99      0.99     19384
+```
   
 
 ## Summary
